@@ -1,0 +1,2 @@
+# LOTOTO
+KIN 10
