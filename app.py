@@ -9,12 +9,12 @@ st.title("🎟️ LotoPool Daily")
 st.write("Tu generador diario de boletos de lotería")
 
 # Calcular el día automáticamente
-fecha_inicio = datetime.date(2024, 7, 1)
+fecha_inicio = datetime.date(2025, 9, 1)
 hoy = datetime.date.today()
 dias_transcurridos = (hoy - fecha_inicio).days + 1
 
 # Validar que esté dentro de los 32 días
-if dias_transcurridos < 1 or dias_transcurridos > 32:
+if False:  # modo prueba
     st.warning("Este no es un día válido del reto (1-32).")
 else:
     st.subheader(f"Día {dias_transcurridos} de 32")
