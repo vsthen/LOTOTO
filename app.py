@@ -9,7 +9,7 @@ st.title("🎟️ LotoPool Daily")
 st.write("Tu generador diario de boletos de lotería")
 
 # Fecha de inicio del reto
-fecha_inicio = datetime.date(2025, 9, 1)
+fecha_inicio = datetime.date.today()
 hoy = datetime.date.today()
 dias_transcurridos = (hoy - fecha_inicio).days + 1
 
